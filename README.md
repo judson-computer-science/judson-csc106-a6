@@ -13,16 +13,6 @@ In addition to these properties, each account type has its own unique characteri
 
 An application class has been provided for you which instantiates one of each account type then iterates over them printing an account summary.  Your job is to implement all the supporting classes to make it work.
 
-## Assignment Submission
-You will submit your assignment using GitHub Classroom.  When you are finished and want to make your final submission, use the checkin comment "FINAL SUBMISSION":
-
-        git add .
-        git commit -m "FINAL SUBMISSION"
-        git push origin main
-
-Any submission not having this comment will be assumed to be a work-in-progress and therefore will be ignored.  This implies that you must make your final push with this commit comment before the deadline.
-
-
 ## Implementation Details
  - Create an `Account` class with the Account Number, Account Holder Name and Account Balance properties. The Account class will also be responsible for printing the portion of the account summary containing those values (the `displayAccountDetails()` method).
       - All these classes must live in a package called `account`
